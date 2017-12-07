@@ -27,7 +27,7 @@
         android:layout_gravity="bottom"
         android:layout_margin="16dp"
         android:textSize="20sp"
-        android:drawableLeft="@drawable/ic_nav_header"
+        android:drawableLeft="@drawable/ic_nav_header2"
         android:drawablePadding="10dp"
         android:gravity="center_vertical"
         android:clickable="true"

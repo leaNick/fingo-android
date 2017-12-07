@@ -328,7 +328,7 @@
   <string name="wizard_option_disable_crash_reports">Отключить отчёты о падениях</string>
   <string name="wizard_btn_back">Назад</string>
   <string name="title_setup_gnucash">Настройка GnuCash</string>
-  <string name="wizard_title_welcome_to_gnucash">Добро пожаловать в GnuCash</string>
+  <string name="wizard_title_welcome_to_gnucash">Добро пожаловать в FinGo</string>
   <string name="msg_wizard_welcome_page">Прежде, чем вы начныте,\nдавайте настроим некоторые вещи.\n\nДля продолжения нажмите «Далее».</string>
   <string name="title_split_editor">Редактор разбиения</string>
   <string name="toast_error_check_split_amounts">Проверьте, что все части корректно распределены перед сохранением!</string>
