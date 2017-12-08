@@ -92,7 +92,7 @@ Version 2.1.1 *(2016-09-05)*
 
 Version 2.1.0 *(2016-09-01)*
 ----------------------------
-* Feature: Use multiple GnuCash books in single application
+* Feature: Use multiple FinGo books in single application
 * Feature: Backup/Export to ownCloud servers
 * Feature: Compact transactions list view for single-entry mode
 * Improved: Redesign of passcode screen with included alphabet keys
@@ -142,7 +142,7 @@ Version 2.0.2 *(2015-11-20)*
 * Fixed: Bar chart does not display negative amounts
 * Fixed: Crash when saving transaction with invalid amount expression
 * Fixed: Crash when displaying bar chart legend with accounts of same name
-* Fixed: Crashes when importing some GnuCash XML files on some devices
+* Fixed: Crashes when importing some FinGo XML files on some devices
 * Improved: Remember last export destination
 * Improved: Display current imbalance in split editor
 * Improved: Set default commodity to the one used by imported file
@@ -167,7 +167,7 @@ Version 2.0.0 *(2015-11-01)*
 * Feature: Use appropriate decimal places per currency
 * Feature: New help & feedback section with UserVoice
 * Feature: New transaction detail view with running account balance
-* Feature: Export/import commodity prices to/from GnuCash XML
+* Feature: Export/import commodity prices to/from FinGo XML
 * Feature: Prompt for rating the application after a number of starts
 * Feature: Support for Android M permissions model
 * Feature: New horizontal layout for account and transaction lists
@@ -184,7 +184,7 @@ Version 2.0.0 *(2015-11-01)*
 * Improved: Added Portuguese translation
 * Improved: Account balances are now computed faster (in parallel)
 * Fixed: Data leak through app screenshot when passcode is set
-* Fixed: Some inconsistencies when importing GnuCash XML
+* Fixed: Some inconsistencies when importing FinGo XML
 * Fixed: "Save" and "Cancel" transaction buttons not displayed in Gingerbread
 * Fixed: Word-wrap on transaction type switch
 * Fixed: Crash when restoring backups with poorly formatted amount strings
@@ -220,14 +220,14 @@ Version 1.6.0 *(2015-06-20)*
 * Feature: More recurrence options for scheduled transactions
 * Feature: Backup/Export to DropBox and Google Drive
 * Feature: Reports of income and expenses over time - bar, pie and line charts
-* Feature: Import scheduled transactions from GnuCash XML (experimental)
+* Feature: Import scheduled transactions from FinGo XML (experimental)
 * Feature: Set app as handler for .gnucash and .gnca files
 * Feature: Auto-balance transactions before saving
 * Feature: Navigation drawer for easier access to features
 * Feature: Options for explicitly creating/restoring backups
 * Feature: Support for hidden accounts
 * Feature: Account delete dialog now has options for moving sub-accounts and transactions
-* Feature: Export to Gnucash desktop-compatible XML
+* Feature: Export to FinGo desktop-compatible XML
 * Feature: Support for logging to Crashlytics (for beta releases)
 * Fixed: Checkboxes in transaction list are hard to see
 * Fixed: Crash when restoring last backup
@@ -295,7 +295,7 @@ Version 1.5.0 *(2014-10-01)*
 * Fixed: Amount values not always displaying the correct sign
 * Feature: Select default currency upon first run of application
 * Feature: Creating account hierarchy uses the user currency preference
-* Feature: Support for reading and writing compressed GnuCash XML files.
+* Feature: Support for reading and writing compressed FinGo XML files.
 * Feature: Set a passcode lock to restrict access to the application
 * Feature: Export a QIF file for transactions of each currency in use  
 * Improved: Increased stability of import/export operations
@@ -335,8 +335,8 @@ Splits store the amounts as absolute values and then separately the kind - CREDI
 * Feature: Introduces multiple splits per transaction
 * Feature: Introduced a new Split editor for the creation and editing of splits
 * Feature: Use account specific labels for CREDIT/DEBIT instead of just generic "debit" and "credit"
-* Feature: Import GnuCash XML files - accounts and transactions only (experimental)
-* Feature: Back up transactions in an XML format (similar to GnuCash XML) called .gnca (Gnucash Android)
+* Feature: Import FinGo XML files - accounts and transactions only (experimental)
+* Feature: Back up transactions in an XML format (similar to FinGo XML) called .gnca (Gnucash Android)
 * Feature: Option for saving opening balances before deleting transactions
 * Improved: Updated processes for moving, creating, exporting, deleting transactions to work with splits
 * Improved: Updated computation of account and transaction balances to be in line with accounting principles
@@ -359,7 +359,7 @@ Version 1.3.2 *(2014-05-23)*
 * Fixed: Computation of account balance did not properly consider double entries
 * Improved: Double-entry accounting is now activated by default
 * Improved: Reliability of account structure import
-* Improved: Restricted parent/child account hierarchies relationships to those defined by GnuCash accounting
+* Improved: Restricted parent/child account hierarchies relationships to those defined by FinGo accounting
 * Improved: Dutch translation
 * Improved: German translation
 
@@ -387,7 +387,7 @@ Version 1.3.0 *(2014-02-10)*
 * Feature: Mark accounts as placeholder accounts (cannot contain transactions)
 * Feature: Set a default transfer account for each account
 * Feature: Color code accounts & themed account views
-* Feature: Create default GnuCash account structure from within app
+* Feature: Create default FinGo account structure from within app
 * Improved: Enabled one-button click for rating app and sending feedback
 * Improved: Clicking on version information now shows changelog
 * Improved: Delete account and all its sub-accounts
@@ -403,7 +403,7 @@ Version 1.2.7 *(2013-12-18)*
 Version 1.2.6 *(2013-12-06)*
 ----------------------------
 * Feature: Support for QIF export format
-* Improved: CREDIT/DEBIT meaning now matches GnuCash desktop. Effect on account balance depends on type of account
+* Improved: CREDIT/DEBIT meaning now matches FinGo desktop. Effect on account balance depends on type of account
 
 Version 1.2.5 *(2013-09-17)*
 ----------------------------
@@ -445,12 +445,12 @@ Version 1.2.1 *(2013-06-22)*
 
 Version 1.2.0 *(2013-06-20)*
 ----------------------------
-* Feature: Import GnuCash desktop account structure
+* Feature: Import FinGo desktop account structure
 * Feature: Nested display of account hierarchy
 * Feature: Options for deleting all accounts/transactions
 * Feature: Preliminary support for account types
 * Fixed:   Account balance now takes sub-accounts into consideration
-* Fixed:   Support for GnuCash ROOT account (will not be displayed)
+* Fixed:   Support for FinGo ROOT account (will not be displayed)
 
 Version 1.1.2 *(2013-02-03)*
 ----------------------------
@@ -469,10 +469,10 @@ Version 1.1.0 *(2013-01-31)*
 * Feature: SGML support for OFX exports. Exports are now SGML by default
 * Feature: Display what's new to user after minor/major updates
 * Improved: Reworked UX for creating accounts
-* Improved: Default accounts now match GnuCash desktop accounts
+* Improved: Default accounts now match FinGo desktop accounts
 * Fixed: Crash when creating accounts with special characters in the names
-* Fixed: GnuCash declares itself as launcher application
-* Fixed: Encoding of exported OFX not properly detected by GnuCash desktop
+* Fixed: FinGo declares itself as launcher application
+* Fixed: Encoding of exported OFX not properly detected by FinGo desktop
 
 Version 1.0.3 *(2012-11-23)*
 ----------------------------

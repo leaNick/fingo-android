@@ -27,7 +27,7 @@ import java.util.Currency;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * Test the helper methods used for generating GnuCash XML
+ * Test the helper methods used for generating FinGo XML
  */
 public class GncXmlHelperTest {
 

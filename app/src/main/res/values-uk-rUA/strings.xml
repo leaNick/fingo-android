@@ -70,10 +70,10 @@
   <string name="title_choose_currency">Оберіть валюту за замовчуванням</string>
   <string name="title_default_currency">Звичайна валюта</string>
   <string name="summary_default_currency">Валюта нових рахунків</string>
-  <string name="label_permission_record_transactions">Дозволяє запис транзакцій в Gnucash Android</string>
-  <string name="label_permission_create_accounts">Дозволяє створення рахунків в Gnucash Android</string>
-  <string name="label_permission_group">Ваші Gnucash дані</string>
-  <string name="description_permission_group">Читання і модифікація Gnucash даних</string>
+  <string name="label_permission_record_transactions">Дозволяє запис транзакцій в FinGo Android</string>
+  <string name="label_permission_create_accounts">Дозволяє створення рахунків в FinGo Android</string>
+  <string name="label_permission_group">Ваші FinGo дані</string>
+  <string name="description_permission_group">Читання і модифікація FinGo даних</string>
   <string name="label_permission_record_transaction">Запис операції в GnuCash</string>
   <string name="label_permission_create_account">Створення рахунків в GnuCash</string>
   <string name="label_display_account">Показати рахунок</string>
@@ -88,9 +88,9 @@
   <string name="title_passcode_preferences">Захист PIN-кодом</string>
   <string name="title_enable_passcode">Увімкнути PIN-код</string>
   <string name="title_change_passcode">Змінити PIN-код</string>
-  <string name="title_about_gnucash">Про Gnucash</string>
-  <string name="title_export_email">Експорт %1$s-файлу із Gnucash Android</string>
-  <string name="description_export_email">Экспорт даних GnuCash Android від </string>
+  <string name="title_about_gnucash">Про FinGo</string>
+  <string name="title_export_email">Експорт %1$s-файлу із FinGo Android</string>
+  <string name="description_export_email">Экспорт даних FinGo Android від </string>
   <string name="header_transaction_settings">Транзакції</string>
   <string name="title_transaction_preferences">Транзакції</string>
   <string name="title_account_preferences">Рахунки</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Валюта</string>
   <string name="label_parent_account">Головний рахунок</string>
   <string name="title_xml_ofx_header">Використовувати XML-заголовок OFX</string>
-  <string name="summary_xml_ofx_header">Ввімкніть цю опцію, якщо експортуєте в програми відмінні від GnuCash для ПК</string>
+  <string name="summary_xml_ofx_header">Ввімкніть цю опцію, якщо експортуєте в програми відмінні від FinGo для ПК</string>
   <string name="title_whats_new">Що нового</string>
   <string name="whats_new">
         - Дані можна експортувати до будь-якого сервісу, що підтримує Платформу доступу до сховища (Storage Access Framework)\n
@@ -126,9 +126,9 @@
   <string name="label_dismiss">Відмовитися</string>
   <string name="toast_transanction_amount_required">Введіть суму, щоб зберегти транзакцію</string>
   <string name="toast_error_importing_accounts">Сталася помилка при імпорті рахунків із GnuCash</string>
-  <string name="toast_success_importing_accounts">Рахунки із GnuCash успішно імпортовані</string>
-  <string name="summary_import_accounts"> Імпорт структури рахунків із GnuCash для ПК</string>
-  <string name="title_import_accounts">Імпортувати файл GnuCash XML</string>
+  <string name="toast_success_importing_accounts">Рахунки із FinGo успішно імпортовані</string>
+  <string name="summary_import_accounts"> Імпорт структури рахунків із FinGo для ПК</string>
+  <string name="title_import_accounts">Імпортувати файл FinGo XML</string>
   <string name="summary_delete_all_accounts">Видалити всі рахунки з бази. Усі транзакції теж видаляться.</string>
   <string name="title_delete_all_accounts">Видалити всі рахунки</string>
   <string name="header_account_settings">Рахунки</string>
@@ -144,7 +144,7 @@
   <string name="title_default_export_format">Формат експорту за замовчуванням</string>
   <string name="summary_default_export_format">Формат файлу, який використовується за умовчанням при експорті</string>
   <string name="label_recurring_transaction">За розкладом</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Нерівновага</string>
   <string name="title_progress_exporting_transactions">Транзакції експортуються</string>
   <string name="label_no_recurring_transactions">Немає запланований транзакцій.</string>
@@ -328,7 +328,7 @@
   <string name="wizard_option_disable_crash_reports">Не звітувати про помилки</string>
   <string name="wizard_btn_back">Назад</string>
   <string name="title_setup_gnucash">Налаштування GnuCash</string>
-  <string name="wizard_title_welcome_to_gnucash">Ласкаво просимо до GnuCash</string>
+  <string name="wizard_title_welcome_to_gnucash">Ласкаво просимо до FinGo</string>
   <string name="msg_wizard_welcome_page">Перш ніж починати, \nдавайте налаштуємо застосунок.\n\nЩоб продовжити, натисніть «Далі»</string>
   <string name="title_split_editor">Розділення</string>
   <string name="toast_error_check_split_amounts">Перевірте щоб всі частинки мали допустимі суми перед збереженням!</string>

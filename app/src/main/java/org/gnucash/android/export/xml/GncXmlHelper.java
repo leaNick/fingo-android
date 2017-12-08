@@ -48,7 +48,7 @@ public abstract class GncXmlHelper {
     public static final String TAG_GDATE            = "gdate";
 
     /*
-    Qualified GnuCash XML tag names
+    Qualified FinGo XML tag names
      */
     public static final String TAG_ROOT             = "gnc-v2";
     public static final String TAG_BOOK             = "gnc:book";
@@ -166,7 +166,7 @@ public abstract class GncXmlHelper {
 
 
     /**
-     * Formats dates for the GnuCash XML format
+     * Formats dates for the FinGo XML format
      * @param milliseconds Milliseconds since epoch
      */
     public static String formatDate(long milliseconds){
@@ -185,7 +185,7 @@ public abstract class GncXmlHelper {
     }
 
     /**
-     * Parses amount strings from GnuCash XML into {@link java.math.BigDecimal}s.
+     * Parses amount strings from FinGo XML into {@link java.math.BigDecimal}s.
      * The amounts are formatted as 12345/100
      * @param amountString String containing the amount
      * @return BigDecimal with numerical value

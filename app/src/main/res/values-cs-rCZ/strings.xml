@@ -70,10 +70,10 @@
   <string name="title_choose_currency">Vyberte výchozí měnu</string>
   <string name="title_default_currency">Výchozí měna</string>
   <string name="summary_default_currency">Výchozí měna k novým účtům</string>
-  <string name="label_permission_record_transactions">Umožňuje záznam transakcí v GnuCash pro Android</string>
-  <string name="label_permission_create_accounts">Umožňuje vytváření účtů v GnuCash pro Android</string>
-  <string name="label_permission_group">Vaše GnuCash data</string>
-  <string name="description_permission_group">Číst a upravovat GnuCash data</string>
+  <string name="label_permission_record_transactions">Umožňuje záznam transakcí v FinGo pro Android</string>
+  <string name="label_permission_create_accounts">Umožňuje vytváření účtů v FinGo pro Android</string>
+  <string name="label_permission_group">Vaše FinGo data</string>
+  <string name="description_permission_group">Číst a upravovat FinGo data</string>
   <string name="label_permission_record_transaction">Záznam transakcí v GnuCash</string>
   <string name="label_permission_create_account">Vytvořit účty v GnuCash</string>
   <string name="label_display_account">Zobrazit účet</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Měna</string>
   <string name="label_parent_account">Parent account</string>
   <string name="title_xml_ofx_header">Použit XML OFX hlavičku</string>
-  <string name="summary_xml_ofx_header">Použijte tuto možnost při exportu do aplikace jiného výrobce než GnuCash pro stolní počítače</string>
+  <string name="summary_xml_ofx_header">Použijte tuto možnost při exportu do aplikace jiného výrobce než FinGo pro stolní počítače</string>
   <string name="title_whats_new">Co je nového</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -125,10 +125,10 @@
 	</string>
   <string name="label_dismiss">Zrušit</string>
   <string name="toast_transanction_amount_required">Zadejte částku k uložení transakce</string>
-  <string name="toast_error_importing_accounts">Při importu GnuCash účtů došlo k chybě</string>
+  <string name="toast_error_importing_accounts">Při importu FinGo účtů došlo k chybě</string>
   <string name="toast_success_importing_accounts">GnuCash účty úspěšně importovány</string>
-  <string name="summary_import_accounts">Importovat strukturu účtu exportovaného z GnuCash pro stolní počítače</string>
-  <string name="title_import_accounts">Importovat GnuCash XML</string>
+  <string name="summary_import_accounts">Importovat strukturu účtu exportovaného z FinGo pro stolní počítače</string>
+  <string name="title_import_accounts">Importovat FinGo XML</string>
   <string name="summary_delete_all_accounts">Smazáním všech účtů v databázi dojde také ke smazání všech transakcí.    </string>
   <string name="title_delete_all_accounts">Smazat všechny účty</string>
   <string name="header_account_settings">Účty</string>
@@ -144,7 +144,7 @@
   <string name="title_default_export_format">Výchozí formát pro Export</string>
   <string name="summary_default_export_format">File format to use by default when exporting transactions</string>
   <string name="label_recurring_transaction">Recurrence</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Imbalance</string>
   <string name="title_progress_exporting_transactions">Exporting transactions</string>
   <string name="label_no_recurring_transactions">No recurring transactions to display.</string>
@@ -186,7 +186,7 @@
   <string name="title_recent_accounts">Recent</string>
   <string name="title_favorite_accounts">Favorites</string>
   <string name="title_all_accounts">All</string>
-  <string name="summary_create_default_accounts">Creates default GnuCash commonly-used account structure</string>
+  <string name="summary_create_default_accounts">Creates default FinGo commonly-used account structure</string>
   <string name="title_create_default_accounts">Create default accounts</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Transactions</string>

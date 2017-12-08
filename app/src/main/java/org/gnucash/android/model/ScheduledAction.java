@@ -407,7 +407,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Returns flag if transactions should be automatically created or not
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @return {@code true} if the transaction should be auto-created, {@code false} otherwise
      */
     public boolean shouldAutoCreate() {
@@ -416,7 +416,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Set flag for automatically creating transaction based on this scheduled action
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @param autoCreate Flag for auto creating transactions
      */
     public void setAutoCreate(boolean autoCreate) {
@@ -425,7 +425,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Check if user will be notified of creation of scheduled transactions
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @return {@code true} if user will be notified, {@code false} otherwise
      */
     public boolean shouldAutoNotify() {
@@ -434,7 +434,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Sets whether to notify the user that scheduled transactions have been created
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @param autoNotify Boolean flag
      */
     public void setAutoNotify(boolean autoNotify) {
@@ -443,7 +443,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Returns number of days in advance to create the transaction
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @return Number of days in advance to create transaction
      */
     public int getAdvanceCreateDays() {
@@ -452,7 +452,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Set number of days in advance to create the transaction
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @param advanceCreateDays Number of days
      */
     public void setAdvanceCreateDays(int advanceCreateDays) {
@@ -461,7 +461,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Returns the number of days in advance to notify of scheduled transactions
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @return {@code true} if user will be notified, {@code false} otherwise
      */
     public int getAdvanceNotifyDays() {
@@ -470,7 +470,7 @@ public class ScheduledAction extends BaseModel{
 
     /**
      * Set number of days in advance to notify of scheduled transactions
-     * <p>This flag is currently unused in the app. It is only included here for compatibility with GnuCash desktop XML</p>
+     * <p>This flag is currently unused in the app. It is only included here for compatibility with FinGo desktop XML</p>
      * @param advanceNotifyDays Number of days
      */
     public void setAdvanceNotifyDays(int advanceNotifyDays) {

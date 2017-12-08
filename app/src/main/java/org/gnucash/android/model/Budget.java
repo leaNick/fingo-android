@@ -326,7 +326,7 @@ public class Budget extends BaseModel {
      * is the same for all periods in the budget.
      * BudgetAmounts with different amounts per period are still return separately
      * <p>
-     *     This method is used during import because GnuCash desktop saves one BudgetAmount per period for the whole budgeting period.
+     *     This method is used during import because FinGo desktop saves one BudgetAmount per period for the whole budgeting period.
      *     While this can be easily displayed in a table form on the desktop, it is not feasible in the Android app.
      *     So we display only one BudgetAmount if it covers all periods in the budgeting period
      * </p>

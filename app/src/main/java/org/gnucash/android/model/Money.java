@@ -191,9 +191,9 @@ public final class Money implements Comparable<Money>{
 	}
 
 	/**
-	 * Returns the GnuCash format numerator for this amount.
+	 * Returns the FinGo format numerator for this amount.
 	 * <p>Example: Given an amount 32.50$, the numerator will be 3250</p>
-	 * @return GnuCash numerator for this amount
+	 * @return FinGo numerator for this amount
 	 */
 	public long getNumerator() {
 		try {
@@ -209,9 +209,9 @@ public final class Money implements Comparable<Money>{
 	}
 
 	/**
-	 * Returns the GnuCash amount format denominator for this amount
+	 * Returns the FinGo amount format denominator for this amount
 	 * <p>The denominator is 10 raised to the power of number of fractional digits in the currency</p>
-	 * @return GnuCash format denominator
+	 * @return FinGo format denominator
 	 */
 	public long getDenominator() {
 		int scale = getScale();

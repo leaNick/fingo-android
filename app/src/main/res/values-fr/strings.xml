@@ -70,8 +70,8 @@
   <string name="title_choose_currency">Choisisez une monnaie par défaut</string>
   <string name="title_default_currency">Monnaie par défaut</string>
   <string name="summary_default_currency">Monnaie par défaut à assignée aux nouveaux comptes</string>
-  <string name="label_permission_record_transactions">Permet l\'enregistrement des transactions dans GnuCash pour Android</string>
-  <string name="label_permission_create_accounts">Permet la création de comptes dans GnuCash pour Android</string>
+  <string name="label_permission_record_transactions">Permet l\'enregistrement des transactions dans FinGo pour Android</string>
+  <string name="label_permission_create_accounts">Permet la création de comptes dans FinGo pour Android</string>
   <string name="label_permission_group">Vos données GnuCash</string>
   <string name="description_permission_group">Lire et modifier les données GnuCash</string>
   <string name="label_permission_record_transaction">Enregistrer les transactions dans GnuCash</string>
@@ -89,7 +89,7 @@
   <string name="title_enable_passcode">Activez le code d’accès</string>
   <string name="title_change_passcode">Changer le code d\'accès</string>
   <string name="title_about_gnucash">À propos de GnuCash</string>
-  <string name="title_export_email">Exportation GnuCash Android %1$s</string>
+  <string name="title_export_email">Exportation FinGo Android %1$s</string>
   <string name="description_export_email">GnuCash Android export de </string>
   <string name="header_transaction_settings">Transactions</string>
   <string name="title_transaction_preferences">Préférences des transactions</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Monnaie</string>
   <string name="label_parent_account">Compte parent</string>
   <string name="title_xml_ofx_header">Utiliser l\'entête XML d\'OFX</string>
-  <string name="summary_xml_ofx_header">Activez cette option lors d\'un export vers une application tierce autre que GnuCash pour PC</string>
+  <string name="summary_xml_ofx_header">Activez cette option lors d\'un export vers une application tierce autre que FinGo pour PC</string>
   <string name="title_whats_new">Nouveautés</string>
   <string name="whats_new">
 - Ajout de la possibilité d\'exporter vers n\'importe quel service prenant en charge l\'option Storage Access Framework \n 
@@ -122,8 +122,8 @@
   <string name="label_dismiss">Passer</string>
   <string name="toast_transanction_amount_required">Entrez un montant pour sauvegarder la transaction</string>
   <string name="toast_error_importing_accounts">Une erreur s\'est produite pendant l\'import de vos comptes GnuCash</string>
-  <string name="toast_success_importing_accounts">Comptes GnuCash importés avec succès</string>
-  <string name="summary_import_accounts">Importer la structure de compte exporté de GnuCash pour Bureau</string>
+  <string name="toast_success_importing_accounts">Comptes FinGo importés avec succès</string>
+  <string name="summary_import_accounts">Importer la structure de compte exporté de FinGo pour Bureau</string>
   <string name="title_import_accounts">Import XML GnuCash</string>
   <string name="summary_delete_all_accounts">Supprimer tous les comptes dans la base de données. Toutes les transactions seront également supprimées.    </string>
   <string name="title_delete_all_accounts">Supprimer tous les comptes</string>
@@ -140,7 +140,7 @@
   <string name="title_default_export_format">Format d\'export par défaut</string>
   <string name="summary_default_export_format">Format de fichier à utiliser par défaut pour l\'export des transactions</string>
   <string name="label_recurring_transaction">Récurrence</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Déséquilibre</string>
   <string name="title_progress_exporting_transactions">Exportation des transactions</string>
   <string name="label_no_recurring_transactions">Pas de transactions planifiées à afficher.</string>
@@ -181,7 +181,7 @@
   <string name="title_recent_accounts">Récent</string>
   <string name="title_favorite_accounts">Favoris</string>
   <string name="title_all_accounts">Tous</string>
-  <string name="summary_create_default_accounts">Crée une structure de compte GnuCash par défaut couramment utilisé</string>
+  <string name="summary_create_default_accounts">Crée une structure de compte FinGo par défaut couramment utilisé</string>
   <string name="title_create_default_accounts">Crée comptes par défaut</string>
   <string name="msg_confirm_create_default_accounts_setting">Un nouveau livre sera ouvert avec les comptes courants par défaut\n\n Vos comptes et opérations actuels ne seront pas modifiés !</string>
   <string name="title_scheduled_transactions">Transactions planifiées</string>

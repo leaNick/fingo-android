@@ -70,10 +70,10 @@
   <string name="title_choose_currency">Choose default currency</string>
   <string name="title_default_currency">Default currency</string>
   <string name="summary_default_currency">Default currency to assign to new accounts</string>
-  <string name="label_permission_record_transactions">Enables recording transactions in GnuCash for Android</string>
-  <string name="label_permission_create_accounts">Enables creation of accounts in GnuCash for Android</string>
-  <string name="label_permission_group">Your GnuCash data</string>
-  <string name="description_permission_group">Read and modify GnuCash data</string>
+  <string name="label_permission_record_transactions">Enables recording transactions in FinGo for Android</string>
+  <string name="label_permission_create_accounts">Enables creation of accounts in FinGo for Android</string>
+  <string name="label_permission_group">Your FinGo data</string>
+  <string name="description_permission_group">Read and modify FinGo data</string>
   <string name="label_permission_record_transaction">Record transactions in GnuCash</string>
   <string name="label_permission_create_account">Create accounts in GnuCash</string>
   <string name="label_display_account">Display account</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Currency</string>
   <string name="label_parent_account">Parent account</string>
   <string name="title_xml_ofx_header">Use XML OFX header</string>
-  <string name="summary_xml_ofx_header">Enable this option when exporting to third-party application other than GnuCash for desktop</string>
+  <string name="summary_xml_ofx_header">Enable this option when exporting to third-party application other than FinGo for desktop</string>
   <string name="title_whats_new">What\'s New</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -125,10 +125,10 @@
 	</string>
   <string name="label_dismiss">Dismiss</string>
   <string name="toast_transanction_amount_required">Enter an amount to save the transaction</string>
-  <string name="toast_error_importing_accounts">An error occurred while importing the GnuCash accounts</string>
+  <string name="toast_error_importing_accounts">An error occurred while importing the FinGo accounts</string>
   <string name="toast_success_importing_accounts">GnuCash Accounts successfully imported</string>
-  <string name="summary_import_accounts">Import account structure exported from GnuCash desktop</string>
-  <string name="title_import_accounts">Import GnuCash XML</string>
+  <string name="summary_import_accounts">Import account structure exported from FinGo desktop</string>
+  <string name="title_import_accounts">Import FinGo XML</string>
   <string name="summary_delete_all_accounts">Delete all accounts in the database. All transactions will be deleted as
         well.
     </string>
@@ -148,7 +148,7 @@
   <string name="title_default_export_format">Default Export Format</string>
   <string name="summary_default_export_format">File format to use by default when exporting transactions</string>
   <string name="label_recurring_transaction">Recurrence</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Imbalance</string>
   <string name="title_progress_exporting_transactions">Exporting transactions</string>
   <string name="label_no_recurring_transactions">No recurring transactions to display.</string>
@@ -188,7 +188,7 @@
   <string name="title_recent_accounts">Recent</string>
   <string name="title_favorite_accounts">Favorites</string>
   <string name="title_all_accounts">All</string>
-  <string name="summary_create_default_accounts">Creates default GnuCash commonly-used account structure</string>
+  <string name="summary_create_default_accounts">Creates default FinGo commonly-used account structure</string>
   <string name="title_create_default_accounts">Create default accounts</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Transactions</string>

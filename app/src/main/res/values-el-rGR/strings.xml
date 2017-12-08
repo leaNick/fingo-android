@@ -70,8 +70,8 @@
   <string name="title_choose_currency">Προεπιλογή νομίσματος</string>
   <string name="title_default_currency">Προεπιλεγμένο νόμισμα</string>
   <string name="summary_default_currency">Προεπιλεγμένο νόμισμα για νέους λογαριασμούς</string>
-  <string name="label_permission_record_transactions">Ενεργοποίηση καταγραφής	συναλλαγών στο GnuCash για Android</string>
-  <string name="label_permission_create_accounts">Ενεργοποίηση δημιουργίας λογαριασμών στο GnuCash για Android</string>
+  <string name="label_permission_record_transactions">Ενεργοποίηση καταγραφής	συναλλαγών στο FinGo για Android</string>
+  <string name="label_permission_create_accounts">Ενεργοποίηση δημιουργίας λογαριασμών στο FinGo για Android</string>
   <string name="label_permission_group">Τα δεδομένα σας στο GnuCash</string>
   <string name="description_permission_group">Ανάγνωση και επεξεργασία δεδομένων GnuCash</string>
   <string name="label_permission_record_transaction">Καταγραφή συναλλαγών στο GnuCash</string>
@@ -90,8 +90,8 @@
   <string name="title_enable_passcode">Enable passcode</string>
   <string name="title_change_passcode">Αλλαγή Κωδικού</string>
   <string name="title_about_gnucash">Πληροφορίες για GnuCash</string>
-  <string name="title_export_email">Εξαγωγή GnuCash Android %1$s</string>
-  <string name="description_export_email">Εξαγωγή GnuCash Android προς </string>
+  <string name="title_export_email">Εξαγωγή FinGo Android %1$s</string>
+  <string name="description_export_email">Εξαγωγή FinGo Android προς </string>
   <string name="header_transaction_settings">Κινήσεις</string>
   <string name="title_transaction_preferences">Προτιμήσεις Κινήσεων</string>
   <string name="title_account_preferences">Προτιμήσεις Λογαριασμών</string>
@@ -116,7 +116,7 @@
   <string name="label_account_currency">Νόμισμα</string>
   <string name="label_parent_account">Γονικός λογαριασμός</string>
   <string name="title_xml_ofx_header">Χρήση κεφαλίδας XML OFX</string>
-  <string name="summary_xml_ofx_header">Ενεργοποίηση αυτής της επιλογής για εξαγωγή σε εφαρμογές τρίτων, εκτός του GnuCash για επιτραπέζιο υπολογιστή.</string>
+  <string name="summary_xml_ofx_header">Ενεργοποίηση αυτής της επιλογής για εξαγωγή σε εφαρμογές τρίτων, εκτός του FinGo για επιτραπέζιο υπολογιστή.</string>
   <string name="title_whats_new">Τι νέο υπάρχει</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -133,7 +133,7 @@
   <string name="toast_success_importing_accounts">Λογαριασμοί GnuCash
 	εισήχθησαν με επιτυχία</string>
   <string name="summary_import_accounts">Το εισαγόμενο λογιστικό σχέδιο
-	εξήχθει από το GnuCash για επιτραπέζιους υπολογιστές</string>
+	εξήχθει από το FinGo για επιτραπέζιους υπολογιστές</string>
   <string name="title_import_accounts">Εισαγωγή λογαριασμών GnuCash</string>
   <string name="summary_delete_all_accounts">Διαγραφή όλων των λογαριασμών
 	στη βάση δεδομένων. Όλες οι κινήσεις θα διαγραφούν επίσης.
@@ -157,7 +157,7 @@
   <string name="title_default_export_format">Προεπιλεγμένη Μορφή Εξόδου</string>
   <string name="summary_default_export_format">Μορφή αρχείου για προεπιλεγμένη χρήση κατά την εξαγωγή κινήσεων.</string>
   <string name="label_recurring_transaction">Επαναλαμβανόμενη</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Imbalance</string>
   <string name="title_progress_exporting_transactions">Εξαγωγή κινήσεων</string>
   <string name="label_no_recurring_transactions">Δεν υπάρχουν επαναλαμβανόμενες κινήσεις για εμφάνιση.</string>

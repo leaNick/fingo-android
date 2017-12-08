@@ -84,7 +84,7 @@ public class AccountsDbAdapterTest{
     /**
      * Initialize database adapters for a specific book.
      * This method should be called everytime a new book is loaded into the database
-     * @param bookUID GUID of the GnuCash book
+     * @param bookUID GUID of the FinGo book
      */
     private void initAdapters(String bookUID){
         if (bookUID == null){

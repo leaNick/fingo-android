@@ -4,8 +4,8 @@
 
 # Introduction
 
-GnuCash Android is a companion expense-tracker application for GnuCash (desktop) designed for Android.
-It allows you to record transactions on-the-go and later import the data into GnuCash for the desktop.
+GnuCash Android is a companion expense-tracker application for FinGo (desktop) designed for Android.
+It allows you to record transactions on-the-go and later import the data into FinGo for the desktop.
 
 Accounts            |  Transactions          |  Reports
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -28,16 +28,16 @@ Features include:
 
   * **Income/Expense Account Types (Categories)**: These serve not only to categorize your cash flow, but when used properly with the double-entry feature, these can provide an accurate Profit&Loss statement.
 
-  * **Scheduled Transactions**: GnuCash has the ability to automatically create and enter transactions.
+  * **Scheduled Transactions**: FinGo has the ability to automatically create and enter transactions.
 
-  * **Export to GnuCash XML**, QIF or OFX. Also, scheduled exports to 3rd-party sync services like DropBox and Google Drive
+  * **Export to FinGo XML**, QIF or OFX. Also, scheduled exports to 3rd-party sync services like DropBox and Google Drive
 
   * **Reports**: View summary of transactions (income and expenses) as pie/bar/line charts
 
 
 # Installation
 
-There are different ways to get the GnuCash app for Android; through
+There are different ways to get the FinGo app for Android; through
 the app store, from github or building it yourself.
 
 

@@ -70,8 +70,8 @@
   <string name="title_choose_currency">Trieu la moneda per defecte</string>
   <string name="title_default_currency">Moneda per defecte</string>
   <string name="summary_default_currency">Moneda a assignar per defecte a nous comptes</string>
-  <string name="label_permission_record_transactions">Permet registrar transaccions en GnuCash per Android</string>
-  <string name="label_permission_create_accounts">Permet crear comptes en GnuCash per Android</string>
+  <string name="label_permission_record_transactions">Permet registrar transaccions en FinGo per Android</string>
+  <string name="label_permission_create_accounts">Permet crear comptes en FinGo per Android</string>
   <string name="label_permission_group">Les vostres dades de GnuCash</string>
   <string name="description_permission_group">Llegir i modificar les dades de GnuCash</string>
   <string name="label_permission_record_transaction">Registrar transaccions en GnuCash</string>
@@ -90,7 +90,7 @@
   <string name="title_change_passcode">Canvia la contrasenya</string>
   <string name="title_about_gnucash">Quant a GnuCash</string>
   <string name="title_export_email">GnuCash Android %1$s export</string>
-  <string name="description_export_email">Exportació de GnuCash Android de </string>
+  <string name="description_export_email">Exportació de FinGo Android de </string>
   <string name="header_transaction_settings">Assentaments</string>
   <string name="title_transaction_preferences">Preferències d\'assentaments</string>
   <string name="title_account_preferences">Preferències de comptes</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Moneda</string>
   <string name="label_parent_account">Compte pare</string>
   <string name="title_xml_ofx_header">Utilitzar capçalera XML d\'OFX</string>
-  <string name="summary_xml_ofx_header">Habiliteu aquesta opció quan exporteu a aplicacions de tercers diferents de GnuCash per escriptori</string>
+  <string name="summary_xml_ofx_header">Habiliteu aquesta opció quan exporteu a aplicacions de tercers diferents de FinGo per escriptori</string>
   <string name="title_whats_new">Novetats</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -126,8 +126,8 @@
   <string name="label_dismiss">Dismiss</string>
   <string name="toast_transanction_amount_required">Introduïu una quantitat per desar l\'assentament</string>
   <string name="toast_error_importing_accounts">S\'ha produït un error en importar els comptes de GnuCash</string>
-  <string name="toast_success_importing_accounts">S\'han importat els comptes de GnuCash correctament</string>
-  <string name="summary_import_accounts">Importa l\'estructura de comptes exportada des de GnuCash per escriptori</string>
+  <string name="toast_success_importing_accounts">S\'han importat els comptes de FinGo correctament</string>
+  <string name="summary_import_accounts">Importa l\'estructura de comptes exportada des de FinGo per escriptori</string>
   <string name="title_import_accounts">Importa XML de GnuCash</string>
   <string name="summary_delete_all_accounts">Delete all accounts in the database. All transactions will be deleted as
         well.
@@ -146,7 +146,7 @@
   <string name="title_default_export_format">Format d\'exportació per defecte</string>
   <string name="summary_default_export_format">Format de fitxer a utilitzar per defecte en exportar transaccions</string>
   <string name="label_recurring_transaction">Periodicitat</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Desequilibri</string>
   <string name="title_progress_exporting_transactions">S\'estan exportant les transaccions</string>
   <string name="label_no_recurring_transactions">No hi ha cap transacció recurrent per mostrar.</string>
@@ -187,7 +187,7 @@
   <string name="title_recent_accounts">Recents</string>
   <string name="title_favorite_accounts">Preferits</string>
   <string name="title_all_accounts">Tots</string>
-  <string name="summary_create_default_accounts">Crea l\'estructura de comptes per defecte de GnuCash d\'ús més comú</string>
+  <string name="summary_create_default_accounts">Crea l\'estructura de comptes per defecte de FinGo d\'ús més comú</string>
   <string name="title_create_default_accounts">Crea els comptes per defecte</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Assentaments</string>

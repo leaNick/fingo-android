@@ -70,7 +70,7 @@ import static org.gnucash.android.db.DatabaseSchema.SplitEntry;
 import static org.gnucash.android.db.DatabaseSchema.TransactionEntry;
 
 /**
- * Creates a GnuCash XML representation of the accounts and transactions
+ * Creates a FinGo XML representation of the accounts and transactions
  *
  * @author Ngewi Fet <ngewif@gmail.com>
  * @author Yongxin Wang <fefe.wyx@gmail.com>
@@ -126,7 +126,7 @@ public class GncXmlExporter extends Exporter{
     }
 
     private void exportAccounts(XmlSerializer xmlSerializer) throws IOException {
-        // gnucash desktop requires that parent account appears before its descendants.
+        // FinGo desktop requires that parent account appears before its descendants.
         // sort by full-name to fulfill the request
         Cursor cursor = mAccountsDbAdapter.fetchAccounts(null, null, DatabaseSchema.AccountEntry.COLUMN_FULL_NAME + " ASC");
         while (cursor.moveToNext()) {
@@ -696,7 +696,7 @@ public class GncXmlExporter extends Exporter{
     }
 
     /**
-     * Exports the recurrence to GnuCash XML, except the recurrence tags itself i.e. the actual recurrence attributes only
+     * Exports the recurrence to FinGo XML, except the recurrence tags itself i.e. the actual recurrence attributes only
      * <p>This is because there are different recurrence start tags for transactions and budgets.<br>
      *     So make sure to write the recurrence start/closing tags before/after calling this method.</p>
      * @param xmlSerializer XML serializer

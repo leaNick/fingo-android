@@ -124,7 +124,7 @@
         - 其他改进和bug修复和\n</string>
   <string name="label_dismiss">知道了</string>
   <string name="toast_transanction_amount_required">输入金额才能保存交易</string>
-  <string name="toast_error_importing_accounts">导入 GnuCash 科目时发生错误。</string>
+  <string name="toast_error_importing_accounts">导入 FinGo 科目时发生错误。</string>
   <string name="toast_success_importing_accounts">GnuCash 科目资料导入完成。</string>
   <string name="summary_import_accounts">导入从GnuCash桌面版导出的科目设置</string>
   <string name="title_import_accounts">导入GnuCash XML</string>
@@ -145,7 +145,7 @@
   <string name="title_default_export_format">默认的导出格式</string>
   <string name="summary_default_export_format">导出交易信息时默认使用的文件格式。</string>
   <string name="label_recurring_transaction">重复</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">不平衡的</string>
   <string name="title_progress_exporting_transactions">正在导出交易信息</string>
   <string name="label_no_recurring_transactions">没有可以显示的计划交易</string>

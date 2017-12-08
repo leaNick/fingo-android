@@ -408,7 +408,7 @@ public class Account extends BaseModel {
 
     /**
      * Maps the <code>accountType</code> to the corresponding account type.
-     * <code>accountType</code> have corresponding values to GnuCash desktop
+     * <code>accountType</code> have corresponding values to FinGo desktop
      * @param accountType {@link AccountType} of an account
      * @return Corresponding {@link OfxAccountType} for the <code>accountType</code>
      * @see AccountType

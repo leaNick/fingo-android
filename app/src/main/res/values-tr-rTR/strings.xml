@@ -114,7 +114,7 @@
   <string name="label_account_currency">Para birimi</string>
   <string name="label_parent_account">Üst hesap</string>
   <string name="title_xml_ofx_header">XML OFX başlığı kullan</string>
-  <string name="summary_xml_ofx_header">Masaüstü için GnuCash dışındaki diğer uygulamalar için dışa aktarırken bu seçeneği etkenleştirin</string>
+  <string name="summary_xml_ofx_header">Masaüstü için FinGo dışındaki diğer uygulamalar için dışa aktarırken bu seçeneği etkenleştirin</string>
   <string name="title_whats_new">Yenilikler</string>
   <string name="whats_new">
         - Storage Access Framework hizmetini destekleyen yerlere dışa aktarma eklendi\n
@@ -148,7 +148,7 @@
   <string name="title_default_export_format">Öntanımlı Dışa Aktarma Biçimi</string>
   <string name="summary_default_export_format">İşlemler dışa aktarılırken kullanılacak öntanımlı dosya biçimi</string>
   <string name="label_recurring_transaction">Yineleme</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Dengesizlik</string>
   <string name="title_progress_exporting_transactions">İşlemler dışa aktarılıyor</string>
   <string name="label_no_recurring_transactions">Gösterilecek yinelenen işlem yok.</string>
@@ -189,7 +189,7 @@
   <string name="title_recent_accounts">Son</string>
   <string name="title_favorite_accounts">Favori</string>
   <string name="title_all_accounts">Tüm</string>
-  <string name="summary_create_default_accounts">Öntanımlı genelde kullanılan GnuCash hesap yapısı oluşturur</string>
+  <string name="summary_create_default_accounts">Öntanımlı genelde kullanılan FinGo hesap yapısı oluşturur</string>
   <string name="title_create_default_accounts">Öntanımlı hesapları oluştur</string>
   <string name="msg_confirm_create_default_accounts_setting">Öntanımlı hesaplarla yeni bir kitap açılacak\n\nMevcut hesaplarınız ve işlemleriniz değişmeyecek!</string>
   <string name="title_scheduled_transactions">İşlemler</string>

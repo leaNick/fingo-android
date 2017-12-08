@@ -145,7 +145,7 @@
   <string name="title_default_export_format">預設的匯出格式</string>
   <string name="summary_default_export_format">匯出交易信息時使用的文件格式。</string>
   <string name="label_recurring_transaction">重複</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">失調</string>
   <string name="title_progress_exporting_transactions">正在匯出交易信息</string>
   <string name="label_no_recurring_transactions">没有要显示的排程交易</string>

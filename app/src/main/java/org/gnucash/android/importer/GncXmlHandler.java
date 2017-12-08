@@ -70,7 +70,7 @@ import java.util.Stack;
 import java.util.regex.Pattern;
 
 /**
- * Handler for parsing the GnuCash XML file.
+ * Handler for parsing the FinGo XML file.
  * The discovered accounts and transactions are automatically added to the database
  *
  * @author Ngewi Fet <ngewif@gmail.com>
@@ -197,7 +197,7 @@ public class GncXmlHandler extends DefaultHandler {
     List<Split> mAutoBalanceSplits;
 
     /**
-     * Ignore certain elements in GnuCash XML file, such as "<gnc:template-transactions>"
+     * Ignore certain elements in FinGo XML file, such as "<gnc:template-transactions>"
      */
     String mIgnoreElement = null;
 
@@ -292,7 +292,7 @@ public class GncXmlHandler extends DefaultHandler {
     }
 
     /**
-     * Initialize the GnuCash XML handler
+     * Initialize the FinGo XML handler
      */
     private void init() {
         mBook = new Book();
@@ -673,7 +673,7 @@ public class GncXmlHandler extends DefaultHandler {
                 break;
             case GncXmlHelper.TAG_SPLIT_ACCOUNT:
                 if (!mInTemplates) {
-                    //this is intentional: GnuCash XML formats split amounts, credits are negative, debits are positive.
+                    //this is intentional: FinGo XML formats split amounts, credits are negative, debits are positive.
                     mSplit.setType(mNegativeQuantity ? TransactionType.CREDIT : TransactionType.DEBIT);
                     //the split amount uses the account currency
                     mSplit.setQuantity(new Money(mQuantity, getCommodityForAccount(characterString)));

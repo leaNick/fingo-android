@@ -89,7 +89,7 @@
   <string name="title_enable_passcode">암호 활성화</string>
   <string name="title_change_passcode">암호 변경</string>
   <string name="title_about_gnucash">GnuCash 정보</string>
-  <string name="title_export_email">안드로이드용 GnuCash %1$s 내보내기</string>
+  <string name="title_export_email">안드로이드용 FinGo %1$s 내보내기</string>
   <string name="description_export_email">안드로이드용 GnuCash에서 내보냄. 날짜: </string>
   <string name="header_transaction_settings">거래</string>
   <string name="title_transaction_preferences">거래 설정</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">통화</string>
   <string name="label_parent_account">상위 계정</string>
   <string name="title_xml_ofx_header">XML OFX 헤더 사용</string>
-  <string name="summary_xml_ofx_header">데스크탑용 GnuCash 이외의 타 응용 프로그램에 내보낼 때에 사용하세요</string>
+  <string name="summary_xml_ofx_header">데스크탑용 FinGo 이외의 타 응용 프로그램에 내보낼 때에 사용하세요</string>
   <string name="title_whats_new">새로운 기능</string>
   <string name="whats_new">
 - 저장소 접근 프레임워크(SAF, Storage Access Framework)를 지원하는 어떤 서비스로도 내보내기 가능\n
@@ -145,7 +145,7 @@
   <string name="title_default_export_format">기본 내보내기 형식</string>
   <string name="summary_default_export_format">내보낼 때 기본적으로 사용할 파일 형식</string>
   <string name="label_recurring_transaction">반복거래</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">불균형</string>
   <string name="title_progress_exporting_transactions">거래내역을 내보내고 있습니다</string>
   <string name="label_no_recurring_transactions">반복되는 거래내역이 없습니다</string>

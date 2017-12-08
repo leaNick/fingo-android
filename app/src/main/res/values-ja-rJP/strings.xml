@@ -143,7 +143,7 @@
   <string name="title_default_export_format">既定のエクスポートフォーマット</string>
   <string name="summary_default_export_format">取引のエクスポート時に既定とするファイル形式</string>
   <string name="label_recurring_transaction">繰り返し</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">不均衡</string>
   <string name="title_progress_exporting_transactions">取引のエクスポート</string>
   <string name="label_no_recurring_transactions">表示する繰り返し取引がありません</string>
@@ -183,7 +183,7 @@
   <string name="title_recent_accounts">履歴</string>
   <string name="title_favorite_accounts">お気に入り</string>
   <string name="title_all_accounts">すべて</string>
-  <string name="summary_create_default_accounts">一般的に使用されるデフォルトの GnuCash 勘定科目構成を作成します</string>
+  <string name="summary_create_default_accounts">一般的に使用されるデフォルトの FinGo 勘定科目構成を作成します</string>
   <string name="title_create_default_accounts">デフォルトの勘定科目を作成</string>
   <string name="msg_confirm_create_default_accounts_setting">デフォルトの勘定で新しい帳簿が開かれて\n\n現在の勘定と取引は変更されません!</string>
   <string name="title_scheduled_transactions">取引</string>

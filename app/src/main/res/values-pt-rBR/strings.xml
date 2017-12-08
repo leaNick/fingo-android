@@ -70,8 +70,8 @@
   <string name="title_choose_currency">Escolhe a moeda padrão</string>
   <string name="title_default_currency">Moeda padrão</string>
   <string name="summary_default_currency">Moeda padrão para as novas contas</string>
-  <string name="label_permission_record_transactions">Permite gravar transações no GnuCash para Android</string>
-  <string name="label_permission_create_accounts">Permite criar contas no GnuCash para Android</string>
+  <string name="label_permission_record_transactions">Permite gravar transações no FinGo para Android</string>
+  <string name="label_permission_create_accounts">Permite criar contas no FinGo para Android</string>
   <string name="label_permission_group">Seus dados do GnuCash</string>
   <string name="description_permission_group">Ler e modificar dados do GnuCash</string>
   <string name="label_permission_record_transaction">Gravar transações no GnuCash</string>
@@ -90,7 +90,7 @@
   <string name="title_change_passcode">Alterar senha</string>
   <string name="title_about_gnucash">Sobre o GnuCash</string>
   <string name="title_export_email">GnuCash Android %1$s exportação</string>
-  <string name="description_export_email">Exportação do GnuCash Android de</string>
+  <string name="description_export_email">Exportação do FinGo Android de</string>
   <string name="header_transaction_settings">Transações</string>
   <string name="title_transaction_preferences">Preferências de Transações</string>
   <string name="title_account_preferences">Preferências de Contas</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Moeda</string>
   <string name="label_parent_account">Conta superior</string>
   <string name="title_xml_ofx_header">Usar cabeçalho XML OFX</string>
-  <string name="summary_xml_ofx_header">Active esta opção quando fizer exportações para outras aplicações que não seja o GnuCash para Desktop</string>
+  <string name="summary_xml_ofx_header">Active esta opção quando fizer exportações para outras aplicações que não seja o FinGo para Desktop</string>
   <string name="title_whats_new">O que há de novo</string>
   <string name="whats_new">
 -Adicionada a capacidade de exportar para qualquer serviço que suporta a estrutura de acesso de armazenamento \n
@@ -125,8 +125,8 @@
   <string name="label_dismiss">Descartar</string>
   <string name="toast_transanction_amount_required">Introduza um valor para gravar a transação</string>
   <string name="toast_error_importing_accounts">Ocorreu um erro ao importar as contas do GnuCash</string>
-  <string name="toast_success_importing_accounts">Contas do GnuCash importadas com sucesso</string>
-  <string name="summary_import_accounts">Importar a estrutura de contas do GnuCash para Desktop</string>
+  <string name="toast_success_importing_accounts">Contas do FinGo importadas com sucesso</string>
+  <string name="summary_import_accounts">Importar a estrutura de contas do FinGo para Desktop</string>
   <string name="title_import_accounts">Importar XML do GnuCash</string>
   <string name="summary_delete_all_accounts">Apagar todas as contas. Todas as transações também serão apagadas.</string>
   <string name="title_delete_all_accounts">Apagar todas as contas</string>
@@ -143,7 +143,7 @@
   <string name="title_default_export_format">Formato de Exportação padrão</string>
   <string name="summary_default_export_format">Formato de arquivo a ser usado por padrão ao exportar transações</string>
   <string name="label_recurring_transaction">Recorrente</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Desequilibrio</string>
   <string name="title_progress_exporting_transactions">Exportando transações</string>
   <string name="label_no_recurring_transactions">Não existem transações recorrentes para mostrar</string>
@@ -184,7 +184,7 @@
   <string name="title_recent_accounts">Recentes</string>
   <string name="title_favorite_accounts">Favoritos</string>
   <string name="title_all_accounts">Todas</string>
-  <string name="summary_create_default_accounts">Cria uma estrutura de contas GnuCash padrão</string>
+  <string name="summary_create_default_accounts">Cria uma estrutura de contas FinGo padrão</string>
   <string name="title_create_default_accounts">Cria contas padrão</string>
   <string name="msg_confirm_create_default_accounts_setting">Um novo livro será aberto com as contas padrão \n\n Suas contas e transações atuais não serão modificadas!</string>
   <string name="title_scheduled_transactions">Transações agendadas</string>

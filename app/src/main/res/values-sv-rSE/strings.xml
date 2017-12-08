@@ -70,8 +70,8 @@
   <string name="title_choose_currency">Välj standardvaluta</string>
   <string name="title_default_currency">Standardvaluta</string>
   <string name="summary_default_currency">Standardvaluta att tilldela nya konton</string>
-  <string name="label_permission_record_transactions">Möjliggör inspelning av transaktioner i GnuCash för Android</string>
-  <string name="label_permission_create_accounts">Möjliggör skapandet av konton i GnuCash för Android</string>
+  <string name="label_permission_record_transactions">Möjliggör inspelning av transaktioner i FinGo för Android</string>
+  <string name="label_permission_create_accounts">Möjliggör skapandet av konton i FinGo för Android</string>
   <string name="label_permission_group">Din GnuCash-data</string>
   <string name="description_permission_group">Läsa och ändra GnuCash-data</string>
   <string name="label_permission_record_transaction">Registrera transaktioner i GnuCash</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Valuta</string>
   <string name="label_parent_account">Överordnat konto</string>
   <string name="title_xml_ofx_header">Använd XML OFX sidhuvud</string>
-  <string name="summary_xml_ofx_header">Aktivera detta alternativ när du exporterar till andra tredje parts program än GnuCash för skrivbord</string>
+  <string name="summary_xml_ofx_header">Aktivera detta alternativ när du exporterar till andra tredje parts program än FinGo för skrivbord</string>
   <string name="title_whats_new">Vad är nytt</string>
   <string name="whats_new">
          - Lade till förmåga att exportera till någon tjänst som stöder Storage Access Framework \n         - Lade till möjlighet att ställa in platsen för regelbundna automatiska säkerhetskopior (Se säkerhetskopieringsinställningar)\n         - Lade till Bitcoin valutasupport\n         - Lade till stöd för att byta namn på bokföringar\n         - Flera felkorrigeringar och förbättringar\n 	</string>
@@ -139,7 +139,7 @@
   <string name="title_default_export_format">Standard exportformat</string>
   <string name="summary_default_export_format">Filformat att använda som standard vid exportering av transaktioner</string>
   <string name="label_recurring_transaction">Återkommande</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Obalans</string>
   <string name="title_progress_exporting_transactions">Exporterar transaktioner</string>
   <string name="label_no_recurring_transactions">Inga återkommande transaktioner att visa.</string>
@@ -180,7 +180,7 @@
   <string name="title_recent_accounts">Senaste</string>
   <string name="title_favorite_accounts">Favoriter</string>
   <string name="title_all_accounts">Alla</string>
-  <string name="summary_create_default_accounts">Skapar vanlig GnuCash standardkontostrukturen</string>
+  <string name="summary_create_default_accounts">Skapar vanlig FinGo standardkontostrukturen</string>
   <string name="title_create_default_accounts">Skapa standardkonton</string>
   <string name="msg_confirm_create_default_accounts_setting">En ny bokföring kommer att öppnas med standard konton\n\nDina befintliga konton och transaktioner kommer inte att ändras!</string>
   <string name="title_scheduled_transactions">Transaktioner</string>

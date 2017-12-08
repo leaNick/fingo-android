@@ -307,7 +307,7 @@ public class ExportAsyncTask extends AsyncTask<ExportParams, Void, Boolean> {
     }
 
     /**
-     * Move the exported files to a GnuCash folder on Google Drive
+     * Move the exported files to a FinGo folder on Google Drive
      * @throws Exporter.ExporterException
      * @deprecated Explicit Google Drive integration is deprecated, use Storage Access Framework. See {@link #moveExportToUri()}
      */

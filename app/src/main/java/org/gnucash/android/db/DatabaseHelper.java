@@ -264,7 +264,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 		Log.i(LOG_TAG, "Upgrading database from version "
                 + oldVersion + " to " + newVersion);
 
-        Toast.makeText(GnuCashApplication.getAppContext(), "Upgrading GnuCash database", Toast.LENGTH_SHORT).show();
+        Toast.makeText(GnuCashApplication.getAppContext(), "Upgrading FinGo database", Toast.LENGTH_SHORT).show();
         /*
         * NOTE: In order to modify the database, create a new static method in the MigrationHelper class
         * called upgradeDbToVersion<#>, e.g. int upgradeDbToVersion10(SQLiteDatabase) in order to upgrade to version 10.

@@ -35,15 +35,15 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 /**
- * Importer for Gnucash XML files and GNCA (GnuCash Android) XML files
+ * Importer for FinGo XML files and GNCA (GnuCash Android) XML files
  *
  * @author Ngewi Fet <ngewif@gmail.com>
  */
 public class GncXmlImporter {
 
     /**
-     * Parse GnuCash XML input and populates the database
-     * @param gncXmlInputStream InputStream source of the GnuCash XML file
+     * Parse FinGo XML input and populates the database
+     * @param gncXmlInputStream InputStream source of the FinGo XML file
      * @return GUID of the book into which the XML was imported
      */
     public static String parse(InputStream gncXmlInputStream) throws ParserConfigurationException, SAXException, IOException {

@@ -70,9 +70,9 @@
   <string name="title_choose_currency">Standaard munteenheid kiezen</string>
   <string name="title_default_currency">Standaard munteenheid</string>
   <string name="summary_default_currency">Standaard munteenheid voor samenvatting</string>
-  <string name="label_permission_record_transactions">Staat het bewaren van boekingen in GnuCash for Android toe</string>
-  <string name="label_permission_create_accounts">Staat het aanmaken van rekeningen in GnuCash for Android toe</string>
-  <string name="label_permission_group">Uw GnuCash data</string>
+  <string name="label_permission_record_transactions">Staat het bewaren van boekingen in FinGo for Android toe</string>
+  <string name="label_permission_create_accounts">Staat het aanmaken van rekeningen in FinGo for Android toe</string>
+  <string name="label_permission_group">Uw FinGo data</string>
   <string name="description_permission_group">GnuCash data lezen en bewerken</string>
   <string name="label_permission_record_transaction">Boekingen opslaan in GnuCash</string>
   <string name="label_permission_create_account">Rekeningen aanmaken in GnuCash</string>
@@ -89,7 +89,7 @@
   <string name="title_enable_passcode">Enable passcode</string>
   <string name="title_change_passcode">Wachtwoord wijzigen</string>
   <string name="title_about_gnucash">Over GnuCash</string>
-  <string name="title_export_email">Export %1$s vanuit GnuCash Android</string>
+  <string name="title_export_email">Export %1$s vanuit FinGo Android</string>
   <string name="description_export_email">GnuCash Android Export van </string>
   <string name="header_transaction_settings">Transacties</string>
   <string name="title_transaction_preferences">Transactie voorkeuren</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Munteenheid</string>
   <string name="label_parent_account">Hoofdrekening</string>
   <string name="title_xml_ofx_header">Gebruik XML OFX hoofding</string>
-  <string name="summary_xml_ofx_header">Schakel deze optie in als u naar een applicatie anders dan GnuCash wil exporteren</string>
+  <string name="summary_xml_ofx_header">Schakel deze optie in als u naar een applicatie anders dan FinGo wil exporteren</string>
   <string name="title_whats_new">Nieuw sinds de vorige versie</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -125,7 +125,7 @@
 	</string>
   <string name="label_dismiss">Wijs af</string>
   <string name="toast_transanction_amount_required">Vul een bedrag in om de transactie op te slaan.</string>
-  <string name="toast_error_importing_accounts">Fout bij het importeren van de GnuCash rekeningen</string>
+  <string name="toast_error_importing_accounts">Fout bij het importeren van de FinGo rekeningen</string>
   <string name="toast_success_importing_accounts">GnuCash rekeningen met succes geïmporteerd</string>
   <string name="summary_import_accounts">Rekeningstructuur uit desktop-GnuCash importeren</string>
   <string name="title_import_accounts">GnuCash rekeningen importeren</string>
@@ -148,7 +148,7 @@
   <string name="title_default_export_format">Standaard Export Formaat</string>
   <string name="summary_default_export_format">Bestandsformaat om standaard te gebruiken bij het experteren van transacties</string>
   <string name="label_recurring_transaction">Herhaling</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Onbalans</string>
   <string name="title_progress_exporting_transactions">Transactions exporteren</string>
   <string name="label_no_recurring_transactions">Geen repetitieve transacties gevonden.</string>
@@ -189,7 +189,7 @@
   <string name="title_recent_accounts">Recente</string>
   <string name="title_favorite_accounts">Favorieten</string>
   <string name="title_all_accounts">Alle</string>
-  <string name="summary_create_default_accounts">Creëert standaard GnuCash veelgebruikte rekeningstructuur</string>
+  <string name="summary_create_default_accounts">Creëert standaard FinGo veelgebruikte rekeningstructuur</string>
   <string name="title_create_default_accounts">Standaard rekeningen creëren</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Vaste journaalposten</string>

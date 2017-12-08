@@ -71,8 +71,8 @@ Konto docelowe używa innej waluty niż konto wyjściowe</string>
   <string name="title_choose_currency">Wybierz domyślna walutę</string>
   <string name="title_default_currency">Domyślna waluta</string>
   <string name="summary_default_currency">Domyślna waluta przypisna do nowych kont</string>
-  <string name="label_permission_record_transactions">Pozwala zapisywać transakcje w GnuCash dla Androida</string>
-  <string name="label_permission_create_accounts">Pozwala tworzyć konta w GnuCash dla Androida</string>
+  <string name="label_permission_record_transactions">Pozwala zapisywać transakcje w FinGo dla Androida</string>
+  <string name="label_permission_create_accounts">Pozwala tworzyć konta w FinGo dla Androida</string>
   <string name="label_permission_group">Twoje dane GnuCash</string>
   <string name="description_permission_group">Czytać i modyfikować dane GnuCash</string>
   <string name="label_permission_record_transaction">Rejestrować transakcje w GnuCash</string>
@@ -115,7 +115,7 @@ Konto docelowe używa innej waluty niż konto wyjściowe</string>
   <string name="label_account_currency">Waluta</string>
   <string name="label_parent_account">Konto nadrzędne</string>
   <string name="title_xml_ofx_header">Używaj nagłówka XML OFX</string>
-  <string name="summary_xml_ofx_header">Włącz tę opcję gdy eksportujesz do aplikacji innej ni GnuCash dla desktopa</string>
+  <string name="summary_xml_ofx_header">Włącz tę opcję gdy eksportujesz do aplikacji innej ni FinGo dla desktopa</string>
   <string name="title_whats_new">Co nowego</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -127,9 +127,9 @@ Konto docelowe używa innej waluty niż konto wyjściowe</string>
   <string name="label_dismiss">Spocznij</string>
   <string name="toast_transanction_amount_required">Wprowadź kwotę by zapisać transakcję</string>
   <string name="toast_error_importing_accounts">Wystąpił błąd podczas importowania kont GnuCash</string>
-  <string name="toast_success_importing_accounts">Import kont GnuCash zakończony pomyślnie</string>
-  <string name="summary_import_accounts">Importuj strukturę kont wyeksportowaną z GnuCash dla desktop</string>
-  <string name="title_import_accounts">Importuj GnuCash XML</string>
+  <string name="toast_success_importing_accounts">Import kont FinGo zakończony pomyślnie</string>
+  <string name="summary_import_accounts">Importuj strukturę kont wyeksportowaną z FinGo dla desktop</string>
+  <string name="title_import_accounts">Importuj FinGo XML</string>
   <string name="summary_delete_all_accounts">Usuń wszystkie konta z bazy. Zostaną także usunięte wszystkie transakcje.</string>
   <string name="title_delete_all_accounts">Usuń wszystkie konta</string>
   <string name="header_account_settings">Konta</string>
@@ -145,7 +145,7 @@ Konto docelowe używa innej waluty niż konto wyjściowe</string>
   <string name="title_default_export_format">Domyślny format eksportu</string>
   <string name="summary_default_export_format">Format pliku użyty w trakcie eksportowania transakcji</string>
   <string name="label_recurring_transaction">Powtarzająca się</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Niezbilansowane</string>
   <string name="title_progress_exporting_transactions">Eksport transakcji</string>
   <string name="label_no_recurring_transactions">Brak powtarzających się transakcji do wyświetlenia.</string>
@@ -187,7 +187,7 @@ Konto docelowe używa innej waluty niż konto wyjściowe</string>
   <string name="title_recent_accounts">Ostatnie</string>
   <string name="title_favorite_accounts">Ulubione</string>
   <string name="title_all_accounts">Wszystkie</string>
-  <string name="summary_create_default_accounts">Tworzy typową dla GnuCash strukturę kont</string>
+  <string name="summary_create_default_accounts">Tworzy typową dla FinGo strukturę kont</string>
   <string name="title_create_default_accounts">Utwórz domyślne konta</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Zaplanowane transakcje</string>

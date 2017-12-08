@@ -70,10 +70,10 @@
   <string name="title_choose_currency">Velg standardvaluta</string>
   <string name="title_default_currency">Standardvaluta</string>
   <string name="summary_default_currency">Standardvalutaen som skal tilordnes nye kontoer</string>
-  <string name="label_permission_record_transactions">Aktiverer registrering av transaksjoner i GnuCash for Android</string>
-  <string name="label_permission_create_accounts">Aktiverer oppretting av kontoer i GnuCash for Android</string>
-  <string name="label_permission_group">Dine GnuCash data</string>
-  <string name="description_permission_group">Lese og endre GnuCash data</string>
+  <string name="label_permission_record_transactions">Aktiverer registrering av transaksjoner i FinGo for Android</string>
+  <string name="label_permission_create_accounts">Aktiverer oppretting av kontoer i FinGo for Android</string>
+  <string name="label_permission_group">Dine FinGo data</string>
+  <string name="description_permission_group">Lese og endre FinGo data</string>
   <string name="label_permission_record_transaction">Registrere transaksjoner i GnuCash</string>
   <string name="label_permission_create_account">Opprette kontoer i GnuCash</string>
   <string name="label_display_account">Vis konto</string>
@@ -114,7 +114,7 @@
   <string name="label_account_currency">Valuta</string>
   <string name="label_parent_account">Overordnet konto</string>
   <string name="title_xml_ofx_header">Bruk XML OFX topptekst</string>
-  <string name="summary_xml_ofx_header">Aktiver dette alternativet når du eksporterer til tredjeparts programvare, borsett fra GnuCash for PC</string>
+  <string name="summary_xml_ofx_header">Aktiver dette alternativet når du eksporterer til tredjeparts programvare, borsett fra FinGo for PC</string>
   <string name="title_whats_new">Hva er nytt</string>
   <string name="whats_new">
         - Added ability to export to any service which supports the Storage Access Framework \n
@@ -125,10 +125,10 @@
 	</string>
   <string name="label_dismiss">Avvis</string>
   <string name="toast_transanction_amount_required">Angi et beløp for å lagre transaksjonen</string>
-  <string name="toast_error_importing_accounts">Det oppstod en feil under import av GnuCash kontoene</string>
+  <string name="toast_error_importing_accounts">Det oppstod en feil under import av FinGo kontoene</string>
   <string name="toast_success_importing_accounts">GnuCash kontoer importert</string>
-  <string name="summary_import_accounts">Importere kontostrukturen eksportert fra GnuCash desktop</string>
-  <string name="title_import_accounts">Importere GnuCash XML</string>
+  <string name="summary_import_accounts">Importere kontostrukturen eksportert fra FinGo desktop</string>
+  <string name="title_import_accounts">Importere FinGo XML</string>
   <string name="summary_delete_all_accounts">Slett alle kontoer i databasen. Alle transaksjoner vil også bli slettet.    </string>
   <string name="title_delete_all_accounts">Slette alle kontoer</string>
   <string name="header_account_settings">Kontoer</string>
@@ -144,7 +144,7 @@
   <string name="title_default_export_format">Standard eksportformat</string>
   <string name="summary_default_export_format">Filformat som skal brukes som standard når du eksporterer transaksjoner</string>
   <string name="label_recurring_transaction">Gjentakelse</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Ubalanse</string>
   <string name="title_progress_exporting_transactions">Eksportere transaksjoner</string>
   <string name="label_no_recurring_transactions">Ingen gjentakende transaksjoner å vise.</string>
@@ -185,7 +185,7 @@
   <string name="title_recent_accounts">Siste</string>
   <string name="title_favorite_accounts">Favoritter</string>
   <string name="title_all_accounts">Alle</string>
-  <string name="summary_create_default_accounts">Oppretter standard GnuCash kontostruktur</string>
+  <string name="summary_create_default_accounts">Oppretter standard FinGo kontostruktur</string>
   <string name="title_create_default_accounts">Opprette standardkontoer</string>
   <string name="msg_confirm_create_default_accounts_setting">En ny bok åpnes med standardkontoer\n\nDine gjeldende kontoer og transaksjoner vil ikke bli endret!</string>
   <string name="title_scheduled_transactions">Transaksjoner</string>

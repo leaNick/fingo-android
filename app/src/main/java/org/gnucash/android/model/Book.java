@@ -21,7 +21,7 @@ import android.net.Uri;
 import java.sql.Timestamp;
 
 /**
- * Represents a GnuCash book which is made up of accounts and transactions
+ * Represents a FinGo book which is made up of accounts and transactions
  * @author Ngewi Fet <ngewif@gmail.com>
  */
 public class Book extends BaseModel {
@@ -121,7 +121,7 @@ public class Book extends BaseModel {
     /**
      * Set the Uri of the XML source for the book
      * <p>This Uri will be used for sync where applicable</p>
-     * @param uri Uri of the GnuCash XML source file
+     * @param uri Uri of the FinGo XML source file
      */
     public void setSourceUri(Uri uri) {
         this.mSourceUri = uri;

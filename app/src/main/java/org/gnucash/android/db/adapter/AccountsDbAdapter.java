@@ -686,7 +686,7 @@ public class AccountsDbAdapter extends DatabaseAdapter<Account> {
 
 	/**
 	 * Returns a cursor to all account records in the database.
-     * GnuCash ROOT accounts and hidden accounts will <b>not</b> be included in the result set
+     * FinGo ROOT accounts and hidden accounts will <b>not</b> be included in the result set
 	 * @return {@link Cursor} to all account records
 	 */
     @Override
@@ -703,7 +703,7 @@ public class AccountsDbAdapter extends DatabaseAdapter<Account> {
 
     /**
      * Returns a cursor to all account records in the database ordered by full name.
-     * GnuCash ROOT accounts and hidden accounts will not be included in the result set.
+     * FinGo ROOT accounts and hidden accounts will not be included in the result set.
      * @return {@link Cursor} to all account records
      */
     public Cursor fetchAllRecordsOrderedByFullName(){
@@ -928,7 +928,7 @@ public class AccountsDbAdapter extends DatabaseAdapter<Account> {
     }
 
     /**
-     * Returns the top level accounts i.e. accounts with no parent or with the GnuCash ROOT account as parent
+     * Returns the top level accounts i.e. accounts with no parent or with the FinGo ROOT account as parent
      * @return Cursor to the top level accounts
      */
     public Cursor fetchTopLevelAccounts() {
@@ -975,10 +975,10 @@ public class AccountsDbAdapter extends DatabaseAdapter<Account> {
     }
 
     /**
-     * Returns the GnuCash ROOT account UID if one exists (or creates one if necessary).
-     * <p>In GnuCash desktop account structure, there is a root account (which is not visible in the UI) from which
-     * other top level accounts derive. GnuCash Android also enforces a ROOT account now</p>
-     * @return Unique ID of the GnuCash root account.
+     * Returns the FinGo ROOT account UID if one exists (or creates one if necessary).
+     * <p>In FinGo desktop account structure, there is a root account (which is not visible in the UI) from which
+     * other top level accounts derive. FinGo Android also enforces a ROOT account now</p>
+     * @return Unique ID of the FinGo root account.
      */
     public String getOrCreateGnuCashRootAccountUID() {
         Cursor cursor = fetchAccounts(AccountEntry.COLUMN_TYPE + "= ?",

@@ -70,9 +70,9 @@
   <string name="title_choose_currency">Pilih mata uang default</string>
   <string name="title_default_currency">Mata uang default</string>
   <string name="summary_default_currency">Mata uang default untuk ditetapkan ke akun baru</string>
-  <string name="label_permission_record_transactions">Memungkinkan mencatat transaksi di GnuCash untum Android</string>
-  <string name="label_permission_create_accounts">Memungkinkan membuat akun di GnuCash untuk Android</string>
-  <string name="label_permission_group">Data GnuCash Anda</string>
+  <string name="label_permission_record_transactions">Memungkinkan mencatat transaksi di FinGo untum Android</string>
+  <string name="label_permission_create_accounts">Memungkinkan membuat akun di FinGo untuk Android</string>
+  <string name="label_permission_group">Data FinGo Anda</string>
   <string name="description_permission_group">Membaca dan memodifikasi data GnuCash</string>
   <string name="label_permission_record_transaction">Mencatat transaksi di GnuCash</string>
   <string name="label_permission_create_account">Membuat akun di GnuCash</string>
@@ -114,15 +114,15 @@
   <string name="label_account_currency">Mata Uang</string>
   <string name="label_parent_account">Akun induk</string>
   <string name="title_xml_ofx_header">Gunakan header XML OFX</string>
-  <string name="summary_xml_ofx_header">Aktifkan opsi ini ketika mengekspor ke aplikasi pihak ketiga selain GnuCash versi desktop</string>
+  <string name="summary_xml_ofx_header">Aktifkan opsi ini ketika mengekspor ke aplikasi pihak ketiga selain FinGo versi desktop</string>
   <string name="title_whats_new">Yang Terbaru</string>
   <string name="whats_new">
 </string>
   <string name="label_dismiss">Abaikan</string>
   <string name="toast_transanction_amount_required">Tuliskan jumlah untuk menyimpan transaksi</string>
   <string name="toast_error_importing_accounts">Terjadi error saat mengimpor akun GnuCash</string>
-  <string name="toast_success_importing_accounts">Akun GnuCash berhasil diimpor</string>
-  <string name="summary_import_accounts">Mengimpor struktur akun yang telah diekspor dari GnuCash desktop</string>
+  <string name="toast_success_importing_accounts">Akun FinGo berhasil diimpor</string>
+  <string name="summary_import_accounts">Mengimpor struktur akun yang telah diekspor dari FinGo desktop</string>
   <string name="title_import_accounts">Impor XML GnuCash</string>
   <string name="summary_delete_all_accounts">Hapus seluruh akun dalam database. Seluruh transaksi akan dihapus
         juga.
@@ -141,7 +141,7 @@
   <string name="title_default_export_format">Formart Ekspor Default</string>
   <string name="summary_default_export_format">Format file untuk digunakan secara default ketika mengekspor transaksi</string>
   <string name="label_recurring_transaction">Perulangan</string>
-  <!-- This should be the same name used by GnuCash desktop for imbalance accounts -->
+  <!-- This should be the same name used by FinGo desktop for imbalance accounts -->
   <string name="imbalance_account_name">Tak Seimbang</string>
   <string name="title_progress_exporting_transactions">Mengekspor transaksi</string>
   <string name="label_no_recurring_transactions">Tidak ada transaksi berulang untuk ditampilkan.</string>
@@ -181,7 +181,7 @@
   <string name="title_recent_accounts">Terbaru</string>
   <string name="title_favorite_accounts">Favorit</string>
   <string name="title_all_accounts">Semua</string>
-  <string name="summary_create_default_accounts">Buat struktur akun yang paling sering digunakan di GnuCash secara default</string>
+  <string name="summary_create_default_accounts">Buat struktur akun yang paling sering digunakan di FinGo secara default</string>
   <string name="title_create_default_accounts">Buat akun default</string>
   <string name="msg_confirm_create_default_accounts_setting">A new book will be opened with the default accounts\n\nYour current accounts and transactions will not be modified!</string>
   <string name="title_scheduled_transactions">Transaksi</string>

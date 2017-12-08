@@ -39,7 +39,7 @@ import org.gnucash.android.util.BookUtils;
 import java.io.InputStream;
 
 /**
- * Imports a GnuCash (desktop) account file and displays a progress dialog.
+ * Imports a FinGo (desktop) account file and displays a progress dialog.
  * The AccountsActivity is opened when importing is done.
  */
 public class ImportAsyncTask extends AsyncTask<Uri, Void, Boolean> {

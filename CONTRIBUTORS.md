@@ -1,6 +1,6 @@
 GnuCash for Android is a community effort which is made possible by the contributions of
 several different people.
-Appreciation goes to Muslim Chochlov and the to whole GnuCash community for guiding the
+Appreciation goes to Muslim Chochlov and the to whole FinGo community for guiding the
 project through the early phases (as Google Summer of Code project 2012) and providing valuable feedback.
 
 ### Core Developers:
@@ -10,7 +10,7 @@ project through the early phases (as Google Summer of Code project 2012) and pro
 * Àlex Magaz Graça <alexandre.magaz@gmail.com>
 
 ### Other Contributors
-The following people (in alphabetical order) contributed (commits on GitHub) to GnuCash Android:
+The following people (in alphabetical order) contributed (commits on GitHub) to FinGo Android:
 * aerkefiende
 * Alceu Rodrigues Neto
 * Aleksey Ivanovski

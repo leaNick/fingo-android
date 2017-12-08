@@ -395,7 +395,7 @@ public class AccountsListFragment extends Fragment implements
     /**
      * Extends {@link DatabaseCursorLoader} for loading of {@link Account} from the
      * database asynchronously.
-     * <p>By default it loads only top-level accounts (accounts which have no parent or have GnuCash ROOT account as parent.
+     * <p>By default it loads only top-level accounts (accounts which have no parent or have FinGo ROOT account as parent.
      * By submitting a parent account ID in the constructor parameter, it will load child accounts of that parent.</p>
      * <p>Class must be static because the Android loader framework requires it to be so</p>
      * @author Ngewi Fet <ngewif@gmail.com>

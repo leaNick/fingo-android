@@ -166,7 +166,7 @@ public class DatabaseSchema {
         public static final String COLUMN_TOTAL_FREQUENCY   = "total_frequency";
 
         /**
-         * Number of times this scheduledAction has been run. Analogous to instance_count in GnuCash desktop SQL
+         * Number of times this scheduledAction has been run. Analogous to instance_count in FinGo desktop SQL
          */
         public static final String COLUMN_EXECUTION_COUNT   = "execution_count";
 

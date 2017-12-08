@@ -61,7 +61,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.fail;
 
 /**
- * Imports GnuCash XML files and checks the objects defined in them are imported correctly.
+ * Imports FinGo XML files and checks the objects defined in them are imported correctly.
  */
 @RunWith(GnucashTestRunner.class)
 @Config(constants = BuildConfig.class, sdk = 21, packageName = "org.gnucash.android", shadows = {ShadowCrashlytics.class, ShadowUserVoice.class})

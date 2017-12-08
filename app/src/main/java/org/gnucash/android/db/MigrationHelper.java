@@ -140,13 +140,13 @@ public class MigrationHelper {
     }
 
     /**
-     * Returns the GnuCash ROOT account UID.
-     * <p>In GnuCash desktop account structure, there is a root account (which is not visible in the UI) from which
-     * other top level accounts derive. GnuCash Android does not have this ROOT account by default unless the account
-     * structure was imported from GnuCash for desktop. Hence this method also returns <code>null</code> as an
+     * Returns the FinGo ROOT account UID.
+     * <p>In FinGo desktop account structure, there is a root account (which is not visible in the UI) from which
+     * other top level accounts derive. FinGo Android does not have this ROOT account by default unless the account
+     * structure was imported from FinGo for desktop. Hence this method also returns <code>null</code> as an
      * acceptable result.</p>
      * <p><b>Note:</b> NULL is an acceptable response, be sure to check for it</p>
-     * @return Unique ID of the GnuCash root account.
+     * @return Unique ID of the FinGo root account.
      */
     private static String getGnuCashRootAccountUID(SQLiteDatabase db){
         String condition = AccountEntry.COLUMN_TYPE + "= '" + AccountType.ROOT.name() + "'";
@@ -271,9 +271,9 @@ public class MigrationHelper {
         db.execSQL(addColumnSql);
         db.execSQL(addParentAccountSql);
 
-        //update account types to GnuCash account types
+        //update account types to FinGo account types
         //since all were previously CHECKING, now all will be CASH
-        Log.i(DatabaseHelper.LOG_TAG, "Converting account types to GnuCash compatible types");
+        Log.i(DatabaseHelper.LOG_TAG, "Converting account types to FinGo compatible types");
         ContentValues cv = new ContentValues();
         cv.put(SplitEntry.COLUMN_TYPE, AccountType.CASH.toString());
         db.update(AccountEntry.TABLE_NAME, cv, null, null);

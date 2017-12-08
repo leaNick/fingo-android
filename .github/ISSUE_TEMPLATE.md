@@ -8,6 +8,6 @@
 
 
 #### Software specifications
-* GnuCash Android version:
+* FinGo Android version:
 * System Android version:
 * Device type:

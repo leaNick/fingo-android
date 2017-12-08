@@ -84,7 +84,7 @@ import butterknife.BindView;
 public class AccountsActivity extends BaseDrawerActivity implements OnAccountClickedListener {
 
     /**
-     * Request code for GnuCash account structure file to import
+     * Request code for FinGo account structure file to import
      */
     public static final int REQUEST_PICK_ACCOUNTS_FILE = 0x1;
 
@@ -454,7 +454,7 @@ public class AccountsActivity extends BaseDrawerActivity implements OnAccountCli
     }
 
     /**
-     * Starts Intent chooser for selecting a GnuCash accounts file to import.
+     * Starts Intent chooser for selecting a FinGo accounts file to import.
      * <p>The {@code activity} is responsible for the actual import of the file and can do so by calling {@link #importXmlFileFromIntent(Activity, Intent, TaskDelegate)}<br>
      * The calling class should respond to the request code {@link AccountsActivity#REQUEST_PICK_ACCOUNTS_FILE} in its {@link #onActivityResult(int, int, Intent)} method</p>
      * @param activity Activity starting the request and will also handle the response
@@ -464,7 +464,7 @@ public class AccountsActivity extends BaseDrawerActivity implements OnAccountCli
         Intent pickIntent = new Intent(Intent.ACTION_GET_CONTENT);
         pickIntent.addCategory(Intent.CATEGORY_OPENABLE);
         pickIntent.setType("*/*");
-        Intent chooser = Intent.createChooser(pickIntent, "Select GnuCash account file"); //todo internationalize string
+        Intent chooser = Intent.createChooser(pickIntent, "Select FinGo account file"); //todo internationalize string
 
         try {
             activity.startActivityForResult(chooser, REQUEST_PICK_ACCOUNTS_FILE);
@@ -477,7 +477,7 @@ public class AccountsActivity extends BaseDrawerActivity implements OnAccountCli
 
     /**
      * Overloaded method.
-     * Starts chooser for selecting a GnuCash account file to import
+     * Starts chooser for selecting a FinGo account file to import
      * @param fragment Fragment creating the chooser and which will also handle the result
      * @see #startXmlFileChooser(Activity)
      */
@@ -485,7 +485,7 @@ public class AccountsActivity extends BaseDrawerActivity implements OnAccountCli
         Intent pickIntent = new Intent(Intent.ACTION_GET_CONTENT);
         pickIntent.addCategory(Intent.CATEGORY_OPENABLE);
         pickIntent.setType("*/*");
-        Intent chooser = Intent.createChooser(pickIntent, "Select GnuCash account file"); //todo internationalize string
+        Intent chooser = Intent.createChooser(pickIntent, "Select FinGo account file"); //todo internationalize string
 
         try {
             fragment.startActivityForResult(chooser, REQUEST_PICK_ACCOUNTS_FILE);
